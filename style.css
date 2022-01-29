@@ -1,0 +1,73 @@
+h1 {
+	color: darkgoldenrod;
+}
+
+.header {
+	color: magenta;
+}
+
+#section1 {
+	color: olive;
+}
+
+i {
+	color: darkslategray;
+}
+
+/* Обратились ко всем тегам SPAN внутри всех тегов i */
+i span {
+	color: blueviolet;
+}
+
+/* Вложенность i span (которая выше) приоритетней, чем просто span */
+span {
+	color: orangered;
+}
+
+.text {
+	color: dodgerblue;
+}
+
+.end {
+	color: gold;
+}
+
+[class*="-text"] {
+	color: #fc2600;
+}
+
+.two {
+	color: salmon;
+}
+
+.two > p {
+	color: rgb(0, 38, 255);
+}
+
+.text ~ p {
+	color: darkorchid;
+}
+
+#section2 {
+	color: darkturquoise;
+}
+
+h2 {
+	color: forestgreen;
+}
+
+footer {
+	color: rgb(1, 37, 23);
+}
+
+a {
+	color: gold;
+}
+
+footer a {
+	color: rgb(0, 38, 255);
+}
+
+.ppp {
+	color: springgreen;
+}
